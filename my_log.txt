@@ -1,0 +1,40 @@
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:passlib.handlers.bcrypt:detected 'bcrypt' backend, version '4.0.1'
+DEBUG:passlib.handlers.bcrypt:'bcrypt' backend lacks $2$ support, enabling workaround
+ERROR:common.logger:Failed error: 1 validation error for User
+phoneNumber
+  field required (type=value_error.missing)
+ERROR:common.logger:Traceback (most recent call last):
+  File "D:\Projects\reminder-prom\app.py", line 78, in user_sign_up
+    user_model = User(**user.dict())
+                 ^^^^^^^^^^^^^^^^^^^
+  File "pydantic\main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for User
+phoneNumber
+  field required (type=value_error.missing)
+
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:passlib.handlers.bcrypt:detected 'bcrypt' backend, version '4.0.1'
+DEBUG:passlib.handlers.bcrypt:'bcrypt' backend lacks $2$ support, enabling workaround
+ERROR:common.logger:Failed error: 1 validation error for User
+phoneNumber
+  field required (type=value_error.missing)
+ERROR:common.logger:Traceback (most recent call last):
+  File "D:\Projects\reminder-prom\app.py", line 78, in user_sign_up
+    user_model = User(**user.dict())
+                 ^^^^^^^^^^^^^^^^^^^
+  File "pydantic\main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for User
+phoneNumber
+  field required (type=value_error.missing)
+
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:passlib.handlers.bcrypt:detected 'bcrypt' backend, version '4.0.1'
+DEBUG:passlib.handlers.bcrypt:'bcrypt' backend lacks $2$ support, enabling workaround
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:passlib.handlers.bcrypt:detected 'bcrypt' backend, version '4.0.1'
+DEBUG:passlib.handlers.bcrypt:'bcrypt' backend lacks $2$ support, enabling workaround

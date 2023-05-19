@@ -10,6 +10,7 @@ asttokens==2.2.1
 async-timeout==4.0.2
 attrs==23.1.0
 backcall==0.2.0
+bcrypt==4.0.1
 black==23.3.0
 blinker==1.6.2
 blis==0.7.9
@@ -113,9 +114,11 @@ orjson==3.8.12
 packaging==23.1
 pandas==2.0.1
 parso==0.8.3
+passlib==1.7.4
 pathspec==0.11.1
 pathtools==0.1.2
 pathy==0.10.1
+phonenumbers==8.13.11
 pickleshare==0.7.5
 Pillow==9.5.0
 platformdirs==3.5.0

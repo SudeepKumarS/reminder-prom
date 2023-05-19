@@ -28,11 +28,12 @@ def decode_credentials(credentials: str):
 
 
 # Helper function to generate JWT token
-def generate_token(username: str, role: str) -> str:
+def generate_token(username: str, role: str, password: str) -> str:
     try:
         payload = {
             "username": username,
             "role": role,
+            "password": password,
             "exp": datetime.utcnow() + timedelta(hours=2),
         }
         return encode_payload(payload)
